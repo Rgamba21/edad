@@ -10,7 +10,7 @@ public class calcularEdad {
  
 		// Mostramos el resultado de llamar a la función calcular pasando
 		// como parametro la fecha de nacimiento YYYY-MM-DD
-		System.out.println(calcular(new GregorianCalendar(1988,02,11)));
+		System.out.println(calcular(new GregorianCalendar(1990,02,11)));
 	}
  
     public static int calcular(Calendar fechaNac) {
